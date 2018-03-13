@@ -3,30 +3,62 @@ body {
     padding:0;
 }
 
+/* ~~~~~
+ * Style the Navigation Bar 
+ * ~~~~~ */
 ul.navbar {
     list-style-type:none;
     margin:0px;
-    padding:15;
+    padding:15px;
     background-color:#333;
 }
 
 li.navitem {
     display:inline;
-    margin:0px;
-    padding:15px;
+    margin:0px 10px 0px 10px;
+    padding:5px 15px 5px 15px;
     font-size:32px;
+    background-color:#111;
+    border-radius:10%;
 }
 
 a.navlink {
-    color:white;
+    color:#48a843;
     text-decoration:none;
 }
 
 a.navlinkactive {
-    color:white;
+    color:#48a843;
     text-decoration:underline;
 }
 
 a.navlink:hover {
-    background-color:#444;
+    text-decoration:underline;
+}
+
+/* ~~~~~
+ * Style the Footer
+ * ~~~~~ */
+ul.footer {
+    list-style-type:none;
+    margin:0px;
+    padding:5px;
+    background-color:#333;
+    text-align:center;
+    position:fixed;
+    bottom:0;left:0;right:0;
+}
+li.footeritem {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    margin:10px 10px 10px 10px;
+    padding:5px;
+    font-size:32px;
+    background-color:#111;
+    border-radius:10%;
+}
+.fa {
+    text-decoration:none;
+    color:#48a843;
 }
