@@ -1,15 +1,18 @@
 body {
     margin:0;
     padding:0;
+    height:100%;
 }
 
 /* ~~~~~
  * Style the Navigation Bar 
  * ~~~~~ */
 ul.navbar {
+    position:fixed;
+    width:100%;
     list-style-type:none;
     margin:0px;
-    padding:15px;
+    padding:16px;
     background-color:#333;
 }
 
@@ -61,4 +64,31 @@ li.footeritem {
 .fa {
     text-decoration:none;
     color:#48a843;
+}
+/* ~~~~~
+ * Style the Content of the Home Page
+ * ~~~~~ */
+div.homebody {
+    min-height:100%;
+    height = 100%;
+    margin:0 auto -70px;
+    vertical-align:bottom;
+    background-image:url("/img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div.homecontent {
+    position:fixed;
+    width:100%;
+    top:40%;
+    color:#48a843;
+    text-align:center;
+    font-size:32px;
+}
+div.divider {
+    background-color:#48a843;
+    height:5px;
+    margin:10px 45% 10px 45%;
+    width:10%;
+    border-radius:10%;
 }
